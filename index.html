@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ħmira — Chef-Led Ftira & Focaccia · San Ġwann, Malta</title>
+  <meta name="description" content="Ħmira is a chef-led sandwich and focaccia shop in San Ġwann, Malta. Handcrafted ftira and focaccia baked daily with fresh local ingredients by Chef Francesco of MasterChef Malta. Order on WhatsApp." />
+  <meta name="theme-color" content="#3a2417" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:title" content="Ħmira — Chef-Led Ftira & Focaccia · Malta" />
+  <meta property="og:description" content="Handcrafted ftira and focaccia, baked daily with fresh local ingredients. Boutique Mediterranean sandwiches in San Ġwann, Malta." />
+  <meta property="og:image" content="https://d8j0ntlcm91z4.cloudfront.net/user_3FRGYSyReD0RJQD0MRy21RfvvFe/hf_20260622_163040_ba333a61-ecc8-4e37-a78d-6fce38815f8c.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Announcement bar -->
+  <div class="announce" id="announce">
+    <div class="announce__track">
+      <span>NEW MENU IS HERE — fresh flavours, same Ħmira quality</span>
+      <span aria-hidden="true">•</span>
+      <span>Baked fresh daily in San Ġwann</span>
+      <span aria-hidden="true">•</span>
+      <span>Chef-led by Francesco of MasterChef Malta</span>
+      <span aria-hidden="true">•</span>
+      <span>NEW MENU IS HERE — fresh flavours, same Ħmira quality</span>
+      <span aria-hidden="true">•</span>
+      <span>Baked fresh daily in San Ġwann</span>
+      <span aria-hidden="true">•</span>
+      <span>Chef-led by Francesco of MasterChef Malta</span>
+      <span aria-hidden="true">•</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="brand" aria-label="Ħmira home">
+        <span class="brand__mark">Ħ</span>
+        <span class="brand__word">ĦMIRA</span>
+        <span class="brand__est">EST. 2025</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#story">Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#why">Why Ħmira</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit</a>
+        <a class="btn btn--wa nav__wa" href="https://wa.me/35699372799?text=Hi%20%C4%A6mira%2C%20I%27d%20like%20to%20place%20an%20order" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico-wa"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.82 9.82 0 001.523 5.26l-.999 3.648 3.65-.957zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+          Order
+        </a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile drawer -->
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <nav class="drawer__links" aria-label="Mobile">
+      <a href="#story">Story</a>
+      <a href="#menu">Menu</a>
+      <a href="#why">Why Ħmira</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+      <a class="btn btn--wa" href="https://wa.me/35699372799?text=Hi%20%C4%A6mira%2C%20I%27d%20like%20to%20place%20an%20order" target="_blank" rel="noopener">Order on WhatsApp</a>
+    </nav>
+  </div>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero__media">
+        <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3FRGYSyReD0RJQD0MRy21RfvvFe/hf_20260622_163040_ba333a61-ecc8-4e37-a78d-6fce38815f8c.png" alt="Handcrafted Maltese ftira sandwich on artisan focaccia" class="hero__img" fetchpriority="high" />
+        <div class="hero__scrim"></div>
+      </div>
+
+      <div class="hero__content">
+        <p class="eyebrow reveal" data-reveal>San Ġwann · Malta · Est. 2025</p>
+        <h1 class="hero__title">
+          <span class="reveal" data-reveal>Handcrafted ftira</span>
+          <span class="reveal" data-reveal data-delay="1">&amp; focaccia,</span>
+          <span class="reveal hero__title--accent" data-reveal data-delay="2">born in Malta.</span>
+        </h1>
+        <p class="hero__lead reveal" data-reveal data-delay="3">
+          A chef-led sandwich shop where bread is baked fresh every morning and filled
+          with the best of the islands — by Chef Francesco of MasterChef Malta.
+        </p>
+        <div class="hero__cta reveal" data-reveal data-delay="4">
+          <a href="#menu" class="btn btn--solid">View the menu</a>
+          <a href="https://wa.me/35699372799?text=Hi%20%C4%A6mira%2C%20I%27d%20like%20to%20place%20an%20order" target="_blank" rel="noopener" class="btn btn--ghost">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="ico-wa"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.82 9.82 0 001.523 5.26l-.999 3.648 3.65-.957zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+            Order on WhatsApp
+          </a>
+        </div>
+
+        <div class="hero__badges reveal" data-reveal data-delay="5">
+          <div class="badge">
+            <strong>4.4★</strong><span>28 Google reviews</span>
+          </div>
+          <div class="badge">
+            <strong>Baked daily</strong><span>from 7am</span>
+          </div>
+          <div class="badge">
+            <strong>€5–10</strong><span>per person</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#story" class="hero__scroll" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- Marquee strip -->
+    <section class="strip" aria-hidden="true">
+      <div class="strip__track">
+        <span>Fresh local ingredients</span><i>✦</i>
+        <span>Baked every morning</span><i>✦</i>
+        <span>Handcrafted focaccia</span><i>✦</i>
+        <span>Chef-led kitchen</span><i>✦</i>
+        <span>Maltese ftira</span><i>✦</i>
+        <span>Fresh local ingredients</span><i>✦</i>
+        <span>Baked every morning</span><i>✦</i>
+        <span>Handcrafted focaccia</span><i>✦</i>
+        <span>Chef-led kitchen</span><i>✦</i>
+        <span>Maltese ftira</span><i>✦</i>
+      </div>
+    </section>
+
+    <!-- Chef story -->
+    <section class="story" id="story">
+      <div class="story__grid">
+        <div class="story__media reveal" data-reveal>
+          <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3FRGYSyReD0RJQD0MRy21RfvvFe/hf_20260622_163638_76b6b704-d1fe-4669-b48d-b9afe125d2fe.png" alt="Chef Francesco of MasterChef Malta holding a freshly baked focaccia" />
+          <span class="story__tag">Chef Francesco · MasterChef Malta</span>
+        </div>
+        <div class="story__body">
+          <p class="eyebrow reveal" data-reveal>The story</p>
+          <h2 class="reveal" data-reveal data-delay="1">A chef's obsession with great bread.</h2>
+          <p class="reveal" data-reveal data-delay="2">
+            Ħmira — the Maltese word for <em>yeast</em> — began with a simple idea:
+            the sandwich deserves a chef. Led by Chef Francesco of MasterChef Malta fame,
+            every loaf is mixed, proved and baked in-house, then filled with the kind of
+            care you'd expect from a fine kitchen, not a takeaway counter.
+          </p>
+          <p class="reveal" data-reveal data-delay="3">
+            We start before sunrise. The focaccia goes in, the ftira is shaped by hand,
+            and the islands' best produce is prepped fresh. By the time the doors open,
+            the whole street smells of warm bread.
+          </p>
+          <ul class="story__points reveal" data-reveal data-delay="4">
+            <li><span>01</span> Dough proved slowly, baked the same morning</li>
+            <li><span>02</span> Maltese gbejna, tomatoes &amp; oil from local growers</li>
+            <li><span>03</span> Built to order, never sitting on a shelf</li>
+          </ul>
+          <a href="#menu" class="link-arrow reveal" data-reveal data-delay="5">Taste the menu <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured menu -->
+    <section class="menu" id="menu">
+      <div class="section-head">
+        <p class="eyebrow reveal" data-reveal>The menu</p>
+        <h2 class="reveal" data-reveal data-delay="1">Signature ftira &amp; focaccia</h2>
+        <p class="section-head__lead reveal" data-reveal data-delay="2">
+          A rotating board of handcrafted sandwiches. Here are the ones regulars come back for.
+        </p>
+      </div>
+
+      <div class="menu__grid">
+        <article class="card reveal" data-reveal>
+          <div class="card__media"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3FRGYSyReD0RJQD0MRy21RfvvFe/hf_20260622_163732_c824845c-215e-4731-9e47-f5a0806297b7.png" alt="Ftira tal-Maltija sandwich" loading="lazy" /></div>
+          <div class="card__body">
+            <div class="card__top">
+              <h3>Ftira tal-Maltija</h3>
+              <span class="card__price">€8.50</span>
+            </div>
+            <p>Tuna, capers, sun-ripened tomato, olives, gbejna &amp; a slick of Maltese olive oil on hand-shaped ftira.</p>
+            <span class="card__tag">House favourite</span>
+          </div>
+        </article>
+
+        <article class="card reveal" data-reveal data-delay="1">
+          <div class="card__media"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3FRGYSyReD0RJQD0MRy21RfvvFe/hf_20260622_163957_4f0b1da1-5220-43de-ad08-5b20e7c19937.png" alt="Focaccia with mortadella and pistachio" loading="lazy" /></div>
+          <div class="card__body">
+            <div class="card__top">
+              <h3>Focaccia Mortadella</h3>
+              <span class="card__price">€9.00</span>
+            </div>
+            <p>Warm rosemary focaccia, mortadella, whipped pistachio cream, stracciatella &amp; lemon zest.</p>
+            <span class="card__tag">Chef's pick</span>
+          </div>
+        </article>
+
+        <article class="card reveal" data-reveal data-delay="2">
+          <div class="card__media"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3FRGYSyReD0RJQD0MRy21RfvvFe/hf_20260622_164035_7930837f-1622-4ff6-9350-01a48d4aef14.png" alt="Roast vegetable and gbejna focaccia" loading="lazy" /></div>
+          <div class="card__body">
+            <div class="card__top">
+              <h3>Ġbejna &amp; Roast Veg</h3>
+              <span class="card__price">€7.50</span>
+            </div>
+            <p>Slow-roast peppers &amp; aubergine, peppery rocket, local gbejna &amp; basil pesto. Fully veggie.</p>
+            <span class="card__tag">Vegetarian</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="menu__cta reveal" data-reveal>
+        <a href="https://wa.me/35699372799?text=Hi%20%C4%A6mira%2C%20can%20I%20see%20today%27s%20full%20menu%3F" target="_blank" rel="noopener" class="btn btn--solid">See today's full menu</a>
+        <p class="menu__note">Menu changes with the season &amp; the bake. Message us for today's board.</p>
+      </div>
+    </section>
+
+    <!-- Why Hmira / value props -->
+    <section class="why" id="why">
+      <div class="why__grid">
+        <div class="why__intro">
+          <p class="eyebrow reveal" data-reveal>Why Ħmira</p>
+          <h2 class="reveal" data-reveal data-delay="1">Boutique bread, the Mediterranean way.</h2>
+          <p class="reveal" data-reveal data-delay="2">
+            We're not a fast-food counter. We're a small, chef-run kitchen that treats a
+            sandwich like a plate worth getting right — from the flour up.
+          </p>
+          <div class="why__image reveal" data-reveal data-delay="3">
+            <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3FRGYSyReD0RJQD0MRy21RfvvFe/hf_20260622_164109_372309f6-5252-4473-bfb1-3c111049b707.png" alt="Hands shaping handcrafted focaccia dough" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="why__list">
+          <div class="feature reveal" data-reveal>
+            <span class="feature__ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2c3 3 4 6 4 9a4 4 0 11-8 0c0-3 1-6 4-9z"/><path d="M12 22v-6"/></svg>
+            </span>
+            <div>
+              <h3>Baked fresh, every morning</h3>
+              <p>Focaccia and ftira proved slowly overnight and baked from 7am. Nothing frozen, nothing reheated.</p>
+            </div>
+          </div>
+
+          <div class="feature reveal" data-reveal data-delay="1">
+            <span class="feature__ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3v18"/><path d="M5 8c0 4 3 6 7 6s7-2 7-6"/><path d="M5 8a7 3 0 0114 0"/></svg>
+            </span>
+            <div>
+              <h3>Fresh local ingredients</h3>
+              <p>Maltese gbejna, ripe island tomatoes, capers and cold-pressed olive oil from growers we know by name.</p>
+            </div>
+          </div>
+
+          <div class="feature reveal" data-reveal data-delay="2">
+            <span class="feature__ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M7 3v6a5 5 0 0010 0V3"/><path d="M12 14v7"/></svg>
+            </span>
+            <div>
+              <h3>Chef-led, plate by plate</h3>
+              <p>Built to order under Chef Francesco — balanced, seasoned and finished like a dish, not a snack.</p>
+            </div>
+          </div>
+
+          <div class="feature reveal" data-reveal data-delay="3">
+            <span class="feature__ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 21s-7-4.35-7-10a7 7 0 0114 0c0 5.65-7 10-7 10z"/><circle cx="12" cy="11" r="2.5"/></svg>
+            </span>
+            <div>
+              <h3>A neighbourhood spot</h3>
+              <p>Right on Triq Tal Balal in San Ġwann — grab one warm to go, or message ahead and skip the wait.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+      <div class="section-head">
+        <p class="eyebrow reveal" data-reveal>The bake</p>
+        <h2 class="reveal" data-reveal data-delay="1">Straight from the counter</h2>
+      </div>
+      <div class="gallery__grid">
+        <figure class="gallery__item gallery__item--tall reveal" data-reveal>
+          <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3FRGYSyReD0RJQD0MRy21RfvvFe/hf_20260622_163638_76b6b704-d1fe-4669-b48d-b9afe125d2fe.png" alt="Chef Francesco with a fresh focaccia in the Ħmira kitchen" loading="lazy" />
+        </figure>
+        <figure class="gallery__item reveal" data-reveal data-delay="1">
+          <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3FRGYSyReD0RJQD0MRy21RfvvFe/hf_20260622_164035_7930837f-1622-4ff6-9350-01a48d4aef14.png" alt="Roast vegetable and gbejna focaccia" loading="lazy" />
+        </figure>
+        <figure class="gallery__item reveal" data-reveal data-delay="2">
+          <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3FRGYSyReD0RJQD0MRy21RfvvFe/hf_20260622_163957_4f0b1da1-5220-43de-ad08-5b20e7c19937.png" alt="Mortadella focaccia close up" loading="lazy" />
+        </figure>
+        <figure class="gallery__item gallery__item--wide reveal" data-reveal data-delay="1">
+          <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3FRGYSyReD0RJQD0MRy21RfvvFe/hf_20260622_163040_ba333a61-ecc8-4e37-a78d-6fce38815f8c.png" alt="Signature Ħmira ftira on artisan focaccia" loading="lazy" />
+        </figure>
+        <figure class="gallery__item reveal" data-reveal data-delay="2">
+          <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3FRGYSyReD0RJQD0MRy21RfvvFe/hf_20260622_163732_c824845c-215e-4731-9e47-f5a0806297b7.png" alt="Maltese ftira sandwich" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- Review / quote -->
+    <section class="quote">
+      <div class="quote__inner reveal" data-reveal>
+        <div class="quote__stars" aria-label="Rated 4.4 out of 5">★★★★<span>½</span></div>
+        <blockquote>
+          "Easily the best sandwich in Malta right now. You can taste that the bread was
+          made this morning — and the fillings are next level."
+        </blockquote>
+        <cite>— Google review · San Ġwann</cite>
+        <p class="quote__sub">Rated 4.4 from 28 reviews</p>
+      </div>
+    </section>
+
+    <!-- Visit / contact / order -->
+    <section class="visit" id="visit">
+      <div class="visit__grid">
+        <div class="visit__info">
+          <p class="eyebrow reveal" data-reveal>Visit &amp; order</p>
+          <h2 class="reveal" data-reveal data-delay="1">Come for the warm bread.</h2>
+          <p class="visit__lead reveal" data-reveal data-delay="2">
+            Find us on Triq Tal Balal in San Ġwann. Order ahead on WhatsApp and we'll have it
+            ready, or just walk in and follow the smell.
+          </p>
+
+          <div class="visit__details">
+            <div class="detail reveal" data-reveal>
+              <span class="detail__label">Address</span>
+              <a href="https://maps.google.com/?q=Hmira,+Triq+Tal+Balal,+San+Gwann,+Malta" target="_blank" rel="noopener">Triq Tal Balal, San Ġwann, Malta</a>
+            </div>
+            <div class="detail reveal" data-reveal data-delay="1">
+              <span class="detail__label">Hours</span>
+              <p>Tue – Sun · 7:00am – late afternoon<br /><em>Closed Mondays</em></p>
+            </div>
+            <div class="detail reveal" data-reveal data-delay="2">
+              <span class="detail__label">Phone</span>
+              <a href="tel:+35699372799">+356 9937 2799</a>
+            </div>
+            <div class="detail reveal" data-reveal data-delay="3">
+              <span class="detail__label">Price</span>
+              <p>€5–10 per person</p>
+            </div>
+          </div>
+
+          <div class="visit__cta reveal" data-reveal data-delay="4">
+            <a href="https://wa.me/35699372799?text=Hi%20%C4%A6mira%2C%20I%27d%20like%20to%20place%20an%20order" target="_blank" rel="noopener" class="btn btn--wa btn--lg">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="ico-wa"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.82 9.82 0 001.523 5.26l-.999 3.648 3.65-.957zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+              Order on WhatsApp
+            </a>
+            <a href="tel:+35699372799" class="btn btn--ghost btn--ghost-dark btn--lg">Call us</a>
+          </div>
+        </div>
+
+        <div class="visit__map reveal" data-reveal data-delay="2">
+          <iframe
+            title="Map to Ħmira, San Ġwann"
+            src="https://www.google.com/maps?q=Triq+Tal+Balal,+San+Gwann,+Malta&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <span class="brand__mark">Ħ</span>
+        <div>
+          <span class="brand__word">ĦMIRA</span>
+          <span class="footer__tag">Chef-led ftira &amp; focaccia · San Ġwann, Malta · Est. 2025</span>
+        </div>
+      </div>
+      <nav class="footer__links" aria-label="Footer">
+        <a href="#story">Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#why">Why Ħmira</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <div class="footer__social">
+        <a href="https://wa.me/35699372799" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+        <a href="https://hmira.mt" target="_blank" rel="noopener">hmira.mt</a>
+      </div>
+    </div>
+    <div class="footer__base">
+      <p>© <span id="year">2025</span> Ħmira. Baked with care in Malta.</p>
+      <p>Tue–Sun 7am · Closed Mondays · +356 9937 2799</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/35699372799?text=Hi%20%C4%A6mira%2C%20I%27d%20like%20to%20place%20an%20order" target="_blank" rel="noopener" class="fab" id="fab" aria-label="Order on WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.82 9.82 0 001.523 5.26l-.999 3.648 3.65-.957zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+    <span>Order</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
