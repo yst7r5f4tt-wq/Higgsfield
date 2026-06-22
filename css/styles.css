@@ -251,6 +251,28 @@ body.menu-open .drawer__links .btn { opacity: 1; transform: none; }
 .strip__track span { font-family: var(--serif); font-style: italic; font-size: clamp(1.1rem, 2.4vw, 1.6rem); }
 .strip__track i { color: var(--terracotta); font-style: normal; }
 
+/* ---------- Cinematic reel band ---------- */
+.reel {
+  position: relative; overflow: hidden;
+  min-height: clamp(420px, 70vh, 680px);
+  display: flex; align-items: center;
+  padding: clamp(3rem, 8vw, 6rem) var(--gutter);
+}
+.reel__video {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; z-index: -2;
+}
+.reel__scrim {
+  position: absolute; inset: 0; z-index: -1;
+  background:
+    linear-gradient(90deg, rgba(44,26,15,.85) 0%, rgba(44,26,15,.55) 45%, rgba(44,26,15,.25) 100%),
+    linear-gradient(0deg, rgba(44,26,15,.6), transparent 60%);
+}
+.reel__content { max-width: 620px; color: var(--cream-50); }
+.reel__content .eyebrow { color: var(--terracotta-soft); }
+.reel__content h2 { color: var(--cream-50); margin-bottom: 1.1rem; }
+.reel__lead { color: var(--cream-100); font-size: 1.08rem; max-width: 480px; }
+
 /* ---------- Story ---------- */
 .story { padding: clamp(4.5rem, 10vw, 8rem) var(--gutter); max-width: var(--container); margin: 0 auto; }
 .story__grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2.5rem, 6vw, 5.5rem); align-items: center; }
